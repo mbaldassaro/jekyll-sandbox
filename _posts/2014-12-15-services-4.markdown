@@ -1,0 +1,9 @@
+---
+layout: default
+img: phones.png
+category: Services
+title: Resilient and Democratic Societies<br>
+description: |
+  <p class="lead">Democracy International works to support democracies in transition by empowering political stakeholders and building responsive institutions.</p>
+
+---
