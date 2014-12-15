@@ -1,6 +1,6 @@
 ---
 layout: default
-img: phones.png
+img: IMGP6744.jpg
 category: Services
 title: Credible and Legitimate Elections<br>
 description: |

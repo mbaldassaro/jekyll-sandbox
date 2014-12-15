@@ -9,15 +9,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href={{site.baseurl}}/>{{ site.title }}</a>
-        </div>
+            <a class="navbar-brand" href={{site.baseurl}}/><img src="img/DI-Logo-with-Text-Transparent.png" height=30 width=150/ ></a>
+        </div> <!--removed {{ site.title }}--?
         
         
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href='{{site.baseurl}}/about.html'>Who We Are</a>
+                    <a href={{site.baseurl}}/about.html/>Who We Are</a>
                 </li>
                 <li>
                     <a href="#">What We Do</a>
@@ -34,14 +34,16 @@
 
 <!-- Header -->
 <div class="intro-header">
+    
+    <div id="map"></div> //added
 
     <div class="container">
 
         <div class="row">
             <div class="col-lg-12">
                 <div class="intro-message">
-                    <h1>{{ page.title }}</h1>
-                    <h3>{{ page.subTitle }}</h3>
+                    <h1>{{ page.subTitle }}</h1>
+                    <!--<h3>{{ page.subTitle }}</h3>-->
                     <hr class="intro-divider">
                     <ul class="list-inline intro-social-buttons">
                         {% for social in site.social %}

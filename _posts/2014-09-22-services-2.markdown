@@ -1,6 +1,6 @@
 ---
 layout: default
-img: dog.png
+img: DSC00824.JPG
 category: Services
 title: Citizen Engagement and Empowerment<br>
 description: |
