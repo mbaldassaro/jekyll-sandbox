@@ -30,8 +30,8 @@
 		};
 
 		info.update = function (props) {
-			this._div.innerHTML = '<h4>Where We Work</h4>' +  (props ?
-				'<b>' + props.name + '</b><br />' + props.active + ' people / mi<sup>2</sup>'
+			this._div.innerHTML = (props ?
+				'<b>' + props.name + '</b><br />'
 				: 'Hover over a country');
 		};
 
@@ -62,7 +62,7 @@
 			var layer = e.target;
 
 			layer.setStyle({
-				weight: 3,
+				weight: 2,
 				color: '#005288',
 				dashArray: '',
 				fillOpacity: 0.8
