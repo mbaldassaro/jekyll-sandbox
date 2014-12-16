@@ -6,7 +6,8 @@ var statesData = {
             "id": "01",
             "properties": {
                 "name": "Alabama",
-                "density": 94.65
+                "density": 94.65,
+                "active": 1001
             },
             "geometry": {
                 "type": "Polygon",
