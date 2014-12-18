@@ -26,12 +26,12 @@ h6 {
     font-weight: 400;
 }
 
-.logo {
-    
+.navbar {
+    background-color: #ffffff;
 }
 
 .dropdown-toggle {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.2);*/
 
 }
 
@@ -39,7 +39,7 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8; 
+    color: #f8f8f8;
 }
 
 .row > h1 {
