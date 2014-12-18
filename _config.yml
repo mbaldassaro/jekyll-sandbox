@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://boxpop.org
+#url: http://localhost:4000
 title: Democracy International
 email: mbaldassaro@democracyinternational.com
 description: > # "Write an awesome description for your new site here. 

@@ -26,6 +26,15 @@ h6 {
     font-weight: 400;
 }
 
+.logo {
+    
+}
+
+.dropdown-toggle {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+
+}
+
 .intro-header { 
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -38,6 +47,8 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
     padding-top: 30px;
+    padding-bottom: 0px;
+
 }
 
 .col-lg-12 {
