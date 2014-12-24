@@ -30,8 +30,10 @@ h6 {
     background-color: #ffffff;
 }
 
+
 .dropdown-toggle {
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.2);*/
+    color: #ffffff;
 
 }
 
@@ -40,7 +42,15 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
+    background-color: #ffffff;
 }
+
+/*
+.row {
+    background-color: #000000;
+
+}
+*/
 
 .row > h1 {
     margin: 0;
@@ -114,13 +124,14 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #e7e7e7;
 }
 
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    background-color: #ffffff;
 }
 
 .section-heading {
@@ -182,7 +193,7 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    /*background-color: #000000;*/
 }
 
 p.copyright {

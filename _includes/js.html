@@ -4,9 +4,27 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="{{site.url}}/js/bootstrap.min.js"></script>
 
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-<script type="text/javascript" src="{{site.url}}/js/world.js"></script>
+<!-- Custom JS -->
 
+<script type="text/javascript" src="{{site.url}}/js/world.js"></script>
+<script type="text/javascript" src="{{site.url}}/js/projects.js"></script>
+
+<!-- Charts - D3 / NVD3 -->
+
+<script src="{{site.url}}/lib/lib/d3.v3.js"></script>
+<script src="{{site.url}}/lib/src/utils.js"></script>
+<script src="{{site.url}}/lib/src/tooltip.js"></script>
+<script src="{{site.url}}/lib/src/models/legend.js"></script>
+<script src="{{site.url}}/lib/src/models/axis.js"></script>
+<script src="{{site.url}}/lib/src/models/multiBarHorizontal.js"></script>
+<script src="{{site.url}}/lib/src/models/multiBarHorizontalChart.js"></script>
+<script src="{{site.url}}/js/stream_layers.js"></script>
+<script src="{{site.url}}/js/nv.d3.js"></script>
+<script src="{{site.url}}/js/mbmultibar3.js"></script> <!--added-->
+
+<!-- Maps - Leaflet -->
+
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script type="text/javascript">
 
 		var map = L.map('map').setView([18, 15], 3); //[lat, long], zoom
